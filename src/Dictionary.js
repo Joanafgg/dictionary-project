@@ -10,10 +10,11 @@ export default function Dictionary() {
 }
 
     function search(event) {
-        event.preventDefault ();
+      event.preventDefault();
 
-        let apiURL = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-        axios.get(apiURL).then(handleResponse);
+      // documentation: https://dictionaryapi.dev/
+      let apiURL = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+      axios.get(apiURL).then(handleResponse);
     }
 
     function handleKeywordChange(event) {
