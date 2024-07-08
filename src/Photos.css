@@ -1,0 +1,9 @@
+.Photos img {
+    border-radius: 5px;
+    margin:  15px 0;
+    transition: all 300ms ease-in-out;
+}
+
+.Photos img:hover {
+transform:  scale(1.36, 1.22);
+}

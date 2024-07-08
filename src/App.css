@@ -4,15 +4,17 @@ body {
 
 }
 
-
+.App {
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 .App-header {
     margin: 30px 0;
     font-size: 65px;
     text-align: center;
 color: #C86B85;
-
-
+  font-family: "Gorditas", serif;
 }
 
 
